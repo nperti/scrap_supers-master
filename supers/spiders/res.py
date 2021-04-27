@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import datetime
 import re
-import urlparse
+from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 import scrapy
